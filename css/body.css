@@ -1,0 +1,200 @@
+.middle {
+  background-color: #1f1f1f;
+  width: 89%;
+  height: 85%;
+  border-radius: 25px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 75px;
+  position: relative;
+}
+
+.txt4 {
+  font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-size: 2.8125rem;
+  font-weight: 400;
+  text-align: center;
+  color: #aaa;
+  padding-top: 10px;
+}
+.txt5 {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 0.1px;
+  color: #aaa;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+.innerdiv {
+  height: 100%;
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.imagediv img {
+  width: 250px;
+  height: 200px;
+}
+
+.innerdiv p {
+  color: #aaa;
+  word-wrap: break-word;
+  word-break: normal;
+  font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 0px 10px;
+}
+
+.imagediv {
+  width: 60%;
+  height: 400px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.appdiv {
+  width: 280px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.chatapps_txt {
+  font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 0.1px;
+  color: #aaa;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+.innerdiv button {
+  width: 60%;
+  height: 45px;
+  border-radius: 25px;
+  background-color: #004a77;
+  border: none;
+  color: #c2e7ff;
+  font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 550px;
+  letter-spacing: 0.25px;
+  line-height: 36px;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+}
+.appdiv {
+  width: 280px;
+  height: 50px;
+  display: flex;
+}
+
+.app {
+  width: calc(100% / 3);
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #aaa;
+}
+
+.middle svg {
+  fill: #aaa;
+}
+.app span {
+  color: #a8c7fa;
+  font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  margin: 0px 0px 0px 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1440px) {
+  .innerdiv img {
+    scale: 0.85;
+  }
+  .innerdiv p {
+    scale: 0.95;
+  }
+
+  .middle{
+    width: 86.5%;
+  }
+}
+@media only screen and (max-width: 1340px) {
+  .innerdiv img {
+    scale: 0.85;
+  }
+  .innerdiv p {
+    scale: 0.85;
+  }
+  .middle {
+    gap: 8px;
+    width: 86.5%;
+  }
+}
+@media only screen and (max-width: 1240px) {
+  .innerdiv img {
+    scale: 0.7;
+  }
+  .innerdiv p {
+    scale: 0.7;
+  }
+  .innerdiv {
+    height: 90%;
+  }
+  .middle {
+    gap: 0px;
+    justify-content: center;
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 1070px) {
+  .innerdiv img {
+    scale: 0.65;
+  }
+  .innerdiv p {
+    scale: 0.65;
+    margin: 0px 5px;
+  }
+  .innerdiv {
+    gap: 1px;
+  }
+  .middle {
+    gap: 0px;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 1070px) {
+  .innerdiv p {
+    scale: 0.65;
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .middle {
+    justify-content: center;
+    width: 84%;
+  }
+  .innerdiv {
+    gap: 1px;
+  }
+  .innerdiv p {
+    scale: 0.65;
+  }
+  .innerdiv img {
+    scale: 0.55;
+  }
+}

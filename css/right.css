@@ -1,0 +1,7 @@
+.right {
+  width: 60px;
+  height: 85%;
+  float: right;
+  justify-content: center;
+  border-radius: 25px;
+}
