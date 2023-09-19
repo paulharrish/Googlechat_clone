@@ -30,7 +30,7 @@ body {
   align-items: center;
 }
 
-#header_menu {
+#header-menu {
   font-size: 22px;
   margin-left: 15px;
 }
@@ -48,13 +48,13 @@ body {
   margin-left: 7px;
   margin-right: 5px;
 }
-.chat_text {
+.chat-text {
   font-family: Roboto, RobotoDraft, Helvetica, Arial, "sans-serif";
   color: rgba(255, 255, 255, 0.87);
   font-size: 25px;
   letter-spacing: 0.025px;
 }
-.searchbox {
+.search-box {
   width: 490px;
   height: 46px;
   margin-left: 200px;
@@ -71,11 +71,11 @@ body {
   gap: 10px;
 }
 
-.searchicon {
+.search-icon {
   margin-left: 10px;
 }
 
-.searchbox_text {
+.search-box-text {
   color: #f1f3f4;
   font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
 }
@@ -111,7 +111,7 @@ body {
   justify-content: space-between;
 }
 
-.header_icons {
+.header-icons {
   font-size: small;
   margin: 15px;
   gap: 10px;
@@ -134,12 +134,12 @@ body {
   }
 }
 @media only screen and (max-width: 1250px) {
-  .searchbox {
+  .search-box {
     margin-left: 100px;
   }
 }
 @media only screen and (max-width: 1165px) {
-  .searchbox {
+  .search-box {
     margin-left: 50px;
   }
 }
@@ -154,7 +154,7 @@ body {
     padding-top: 5px;
   }
 
-  .searchbox {
+  .search-box {
     height: 36px;
     margin-left: 20px;
   }
@@ -162,7 +162,7 @@ body {
     height: 36px;
   }
 
-  .chat_text {
+  .chat-text {
     font-size: 18px;
   }
 
@@ -171,7 +171,7 @@ body {
     width: 25px;
   }
 
-  .searchbox_text {
+  .search-box-text {
     font-size: 14px;
   }
 }
